@@ -160,7 +160,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Cevap.cs" />
+    <Compile Include="Models\Tren.cs" />
+    <Compile Include="Models\TrenRezervasyon.cs" />
+    <Compile Include="Models\Vagon.cs" />
+    <Compile Include="Models\YerlesimAyrinti.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rezervasyon\RezervasyonKontrol.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -230,7 +236,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\bootstrap.min.js.map" />
